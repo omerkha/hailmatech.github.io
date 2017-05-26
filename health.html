@@ -1,0 +1,433 @@
+<!DOCTYPE html> <html> 
+<head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+<meta name="HandheldFriendly" content="true"/> <meta name="MobileOptimized" content="480"/> 
+<link href="viamagus.net/static/sitebuilder/css/viamagus-publish-sites.css" rel="stylesheet"/> 
+<link href="netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/> 
+<style>	/* SKYLINE Generic CSS starts */		#playarea #target,	.viamagus-container {}.container-fluid {		padding: 0px;	}	.viamagus-heading1 {		text-transform: uppercase;		color: #fff;		line-height: 1.2;	}	.viamagus-heading3 {		text-transform: uppercase;		color: #fff;		line-height: 1.25;	}	.viamagus-section-heading {		text-transform: uppercase;		color: #62646f;		line-height: 1.25;		letter-spacing: 1px;	}	.viamagus-heading2 {		text-transform: uppercase;		color: #62646f;		line-height: 1.25;		letter-spacing: 1px;	}	.viamagus-paragraph {		color: #898b93;		line-height: 1.5;		word-break: break-word;	}	.viamagus-heading2.featurette-heading {		margin-top: 0px	}	.viamagus-component-content {		padding: 20px 100px;		max-width: 1366px;		margin: auto;	}	.well .viamagus-component-content,	.viamagus_txt-slide .viamagus-component-content {		padding: 0px;		max-width: 100%;		margin: auto;	}	.viamagus-spacer .viamagus-component-content {		padding: 0px 100px;	}	.viamagus-component-content-inner {		padding: 0px 100px;		max-width: 1366px;		margin: auto;		margin-top: 10px;		margin-bottom: 10px;	}	.viamagus_landimg .viamagus-component-content {		margin: auto !important;		padding-top: 0px !important;		padding-bottom: 0px !important;	}	.viamagus_footer .viamagus-component-content {		padding: 35px 100px 0 100px;	}	.vm-social-wall .viamagus-component-content {		padding: 0px;	}	.viamagus-background .backstretch:before {		position: absolute;		content: '';		width: 100%;		height: 100%;		background: rgba(0, 0, 0, 0.1)	}	.viamagus-button-default {		background: #1E9FB4;		border: 0px solid;		font-size: 14px;		color: #fff;		margin: auto;		border-radius: 0px;		text-shadow: 0 0 0;		padding: 12px 25px;		margin-top: 20px;	}	.viamagus-button-default:hover {		background: #333;		color: #fff;	}	.viamagus-button-flat {		background: #1E9FB4;		padding: 20px 45px;		text-shadow: 0 0 0;		color: #fff;		font-size: 17px;		text-decoration: none;		border: none;		vertical-align: middle;		border-radius: 0;		margin-top: 20px;	}	.viamagus-button-flat:hover {		background: #d60742;		color: #fff;	}	.viamagus-button-transparent {		background: rgba(0, 0, 0, 0);		border: 2px solid;		color: #fff;		margin: auto;		border-radius: 0px;		text-shadow: 0 0 0;		padding: 10px 30px;		margin-top: 20px;	}	.viamagus-button-transparent:hover {		background: rgba(0, 0, 0, 0.2);		color: #fff;	}	.mfp-figure:after {		box-shadow: none;		background: none;	}	/* Nav Bar/Header */		.viamagus_header {		display: block;		position: relative;		z-index: 1;	}	.viamagus_header .viamagus-component-bg-colour {		background-color: #494B55;	}	.viamagus_header .navbar {		margin-bottom: 0px !important;		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);	}	.viamagus_header .navbar-inner {		background: none;		padding: 0px;		border-radius: 0px;		border: 0px;		box-shadow: 0 0 0;	}	.viamagus_header .nav {		list-style: none;		position: relative;		float: right;		margin: 0;	}	.viamagus_header .brand {		color: #FFF;		margin-left: 0px;		padding-left: 0px;		text-shadow: none;		text-transform: uppercase;	}	.viamagus_header .brand:hover {		color: #1E9FB4;	}	.viamagus_header .brandcenter {		width: 100%;		margin-left: -20px;	}	.viamagus_header .navbar-inverse .nav-collapse .nav>li.active>a {		background: none;		color: #1D9EB3;		-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.125);		box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.125);		outline: none;	}	.viamagus_header .navbar-inverse .nav>li>a {		text-shadow: 0 0 0;		padding: 10px 20px 10px 20px;	}	.viamagus_header .navbar-inverse .nav>li:last-child a {		padding: 10px 0px 10px 20px;	}	.viamagus_header .nav li a {		display: block;		color: #fff;		font-size: 14px;		font-weight: 100;		letter-spacing: 1px;	}	.viamagus_header .nav li a:hover {		text-decoration: none;		color: #2e3133;	}	.viamagus_header .navbar .btn-navbar {		margin-top: 15px;	}	.viamagus_header .navbar-inverse .nav-collapse .nav>li>a {		background: none;		text-align: right;	}	.viamagus_header .navbar-inverse .nav-collapse .nav>li>a:hover {		background: none;		color: #333;	}	.viamagus_header .menu-center {		display: table;		text-align: center;		width: 100% !important;	}	.viamagus_header .logomenu-center {		display: table;		text-align: center;		width: auto !important;	}	.viamagus_header .collapse-center {		display: table-cell;		vertical-align: middle;	}	.viamagus_header .collapse-centerbrand {		display: table;		margin: auto;	}	.viamagus-sticky-header {		position: fixed !important;		top: 0;		width: 100%;		z-index: 1010;	}	.viamagus_header .dropdown-menu {		border: 0;		border-top: 2px solid #F1720C;		border-radius: 0px;		background: #fff;		margin-top: 10px;		position: absolute;		top: 100%;		right: 0px !important;		margin-top: 10px;		left: auto;		padding: 0;	}	.viamagus_header .navbar .nav>li>.dropdown-menu:after {		left: auto !important;		right: 17px !important;	}	.viamagus_header .navbar .nav>li>.dropdown-menu:before {		left: auto !important;		right: 17px !important;	}	.viamagus_header .navbar .nav>li>.dropdown-menu:before {		position: absolute;		top: -8px;		display: inline-block;		border-right: 7px solid transparent;		border-bottom: 7px solid transparent;		border-left: 7px solid transparent;		border-bottom-color: rgba(0, 0, 0, 0.2);		content: '';	}	.viamagus_header .navbar .nav>li>.dropdown-menu:after {		position: absolute;		top: -8px;		display: inline-block;		border-right: 7px solid transparent;		border-bottom: 7px solid #F1720C;		border-left: 6px solid transparent;		content: '';	}	.viamagus_header .dropdown-menu li a {		background: none;		border-bottom: 1px solid #e7e7e7;		color: #444 !important;		border-bottom: 1px solid #e7e7e7;		font-weight: 400;		font-size: 14px;		line-height: 35px;		text-align: right;		padding: 3px 15px;		-webkit-transition: all 200ms ease-in;		-o-transition: all 200ms ease-in;		-moz-transition: all 200ms ease-in;		transition: all 200ms ease-in;	}	.viamagus_header .navbar-inverse .nav li.dropdown.open>.dropdown-toggle {		background: none;	}	.viamagus_header .navbar-inverse .nav li.dropdown>.dropdown-toggle .caret {		border-top-color: #999;		border-bottom-color: #999;	}	.viamagus_header .navbar-inverse .nav li.dropdown>.dropdown-toggle .caret:hover {		border-top-color: #e33b00;		border-bottom-color: #e33b00;	}	.viamagus_header .dropdown-menu>li>a:hover,	.dropdown-menu>li>a:focus,	.dropdown-submenu:hover>a,	.dropdown-submenu:focus>a {		background: #000;		color: #777;	}	.viamagus_header .dropdown-menu>.active>a,	.dropdown-menu>.active>a:hover,	.dropdown-menu>.active>a:focus {		background: none;		text-align: right;	}	.viamagus_header .navbar-inverse .nav li.dropdown.open>.dropdown-toggle,	.navbar-inverse .nav li.dropdown.active>.dropdown-toggle,	.navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle {		color: #999;		background-color: none;	}	.viamagus_header .navbar-inverse .nav-collapse .dropdown-menu a:hover {		background: none;	}	/* Hero Section/Landing Image */		.viamagus_landimg {		-webkit-background-size: cover;		background-size: cover;		background-repeat: no-repeat;		box-sizing: border-box;		display: block;		background-color: rgba(0, 0, 0, 0);		width: 100%;	}	.viamagus_landimg .viamagus-component-bg-colour {		width: 100%;	}	.displayTable {		display: table;		width: 100%;	}	.displayTableCell {		display: table-cell;		width: 100%;		vertical-align: middle;		height: 500px;	}	.viamagus_landimg .box-video {		overflow: hidden;	}	.viamagus_landimg #video-area,	.viamagus_landimg #box-left {		display: table;		min-height: 350px;	}	.viamagus_landimg #video-area .hero {		text-align: center;	}	.viamagus_landimg #video-area .hero img {		max-height: 350px;		float: none;	}	.viamagus_landimg .hero {		display: table-cell;		vertical-align: middle;	}	.viamagus_landimg .hero-img-center img {		max-height: 150px;	}	.viamagus_landimg #box-center {		max-height: 350px;	}	.viamagus_landimg .text-center .viamagus-cart-button {		text-align: center !important;	}	/* Image */		.viamagus_image {		margin: 0px;		display: table;		width: 100%;	}	.viamagus_image img {		margin: auto;		vertical-align: middle;		display: block;		text-align: center;	}	/* Image/text */		.viamagus-image-text .featurette {		overflow: hidden;		background: ;	}	.viamagus-image-text .featurette .span6 {		margin: 0px;	}	.viamagus-image-text .featurette-image {		position: relative;		z-index: 10;	}	.featurette-image.pull-right,	.pull-right img.featurette-image {		margin-left: 30px;	}	.featurette-image.pull-left,	.pull-left img.featurette-image {		margin-right: 30px;	}	.featurette .lead {		margin: 0px;	}	.viamagus-image-text ol,	.viamagus-image-text ul {		list-style-position: inside;		margin: 0;	}	/* 3 Column Grid */		.columngrid-wrap img.why-section {		float: left;		margin-right: 10px;	}	.viamagus_circlimg img.why-section {		border-radius: 0px;	}	.viamagus_circlimg img:hover {		opacity: 0.9;		filter: alpha(opacity=90);	}	.viamagus_circlimg ul,	.viamagus_circlimg ol {		list-style-position: inside;		margin: 0;	}	/* Text Slider */		.viamagus_txt-slide .block {		display: table;		border: 0px !important;		background: none !important;		margin: 0em;		border-top: none;	}	.viamagus_txt-slide .center {		display: table-cell;		vertical-align: middle;	}	.viamagus_txt-slide .carousel-control.left {		left: 0px;	}	.viamagus_txt-slide .carousel-control.right {		right: 0px;	}	.viamagus_txt-slide .carousel-control.right,	.viamagus_txt-slide .carousel-control.left {		-moz-outline-style: none;		outline: none;		border-radius: 0;		border: 0 none;		width: 10px;		background-color: transparent;		opacity: 0.9;		margin-top: 0px;		color: #fff;		font-size: 30px;		display: block;		padding: 0 25px;		height: 100%;		top: 0;	}	.viamagus_txt-slide .carousel-control .arrow {		display: block;		position: absolute;		top: 50%;		margin-top: -16px;	}	.viamagus_txt-slide .carousel-control.right .arrow {		left: 35px;		color: #fff;	}	.viamagus_txt-slide .carousel-control.left .arrow {		right: 35px;		color: #fff;	}	.viamagus_txt-slide .carousel-control.hide {		display: none !important;	}	.viamagus_txt-slide .hidden-phone {		display: block !important;	}	.viamagus_txt-slide .fa-2x {		font-size: 35px;	}	/* Carousel */		.well {		background-color: transparent;		border-radius: 0px;		border: 0px;		margin-bottom: 0px;	}	.carousel {		margin-bottom: 0px;	}	.carousel-control {		background: transparent;		border: none;		opacity: .7;		width: 22px;	}	.well .carousel-indicators {		right: 100px !important;	}	.well .carousel-control {		position: absolute;		top: 51% !important;	}	.carousel-inner > .item > img {		margin: 0 auto;		top: 0;		left: 0;	}	.viamagus-carousel-slider-info {		background: rgba(1, 1, 1, 0.6);		position: absolute;		bottom: 0;		width: 100%;		padding-bottom: 5px;	}	.viamagus-carousel-slider-text {		position: absolute;		top: 0;		left: 0;		bottom: 0;		right: 0;		display: block;	}	.slider-text-center {		display: table;		width: 100%;	}	.slider-text-center-text {		display: table-cell;		vertical-align: middle;	}	.viamagus-clients-list .elastislide-list li {		width: auto !important;		max-width: none !important;		max-height: none !important;	}	/*Media Galleria */		.galleria {		background: transparent;	}	.galleria .notouch {		background: transparent;	}	/* Grid Gallery Starts Here */		.viamagus-grid-item.viamagus-grid {		position: absolute;		width: 200px;		background-position: center center;		background-repeat: no-repeat;		background-size: cover;	}	.viamagus-grid img {		max-width: 100%;		width: 100%;		display: block;		-webkit-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);		-moz-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);		-o-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);		transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);		-webkit-transform-origin: 50% 0%;		-moz-transform-origin: 50% 0%;		-o-transform-origin: 50% 0%;		-ms-transform-origin: 50% 0%;		transform-origin: 50% 0%;	}	.viamagus-grid .viamagus-grid-item-info {		bottom: 0;		text-overflow: ellipsis;		background: #F7F5F2;		padding: 30px;		position: absolute;		top: 0;		left: 0;		z-index: 1000;		width: 100%;		height: 100%;		display: block;		color: #45494d;		-moz-opacity: 0;		opacity: 0;		-webkit-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		-moz-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		-o-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		-webkit-box-sizing: border-box;		-moz-box-sizing: border-box;		box-sizing: border-box;	}	.viamagus-grid .viamagus-grid-item-info:hover {		opacity: 0.9;	}	.viamagus-grid h4 {		padding: 0px 5px;	}	/* Masonry */		.viamagus-masonry .viamagus-grid-item-info {		color: #333;		background: #fff;		padding: 1px;	}	.viamagus-masonry .viamagus-grid-item-info h4 {		margin: 5px 0;		padding: 0 10px 5px;	}	.viamagus-masonry .viamagus-grid-item-info div {		padding: 0px 10px 5px;	}	.viamagus-masonry img {		width: 100%;		height: auto;		margin: 0px;		padding: 0px;		display: block;	}	.viamagus-grid-gallery .image-bottom {		color: #333;		background: #fff;		bottom: 0;		position: absolute;		width: 100%;	}	.viamagus-grid-gallery .image-top {		color: #333;		background: #fff;		top: 0;		position: absolute;		width: 100%;	}	.viamagus-grid-gallery .image-hover {		bottom: 0;		background: #F7F5F2;		padding: 30px;		position: absolute;		top: 0;		left: 0;		z-index: 1000;		width: 100%;		height: 100%;		display: block;		color: #45494d;		-moz-opacity: 0;		opacity: 0;		-webkit-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		-moz-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		-o-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		-webkit-box-sizing: border-box;		-moz-box-sizing: border-box;		box-sizing: border-box;	}	.viamagus-grid-gallery .image-hover {		word-wrap: break-word;	}	.viamagus-grid-gallery .viamagus-grid .image-hover:hover {		opacity: 0.9;	}	/* viamagus-cart */		.viamagus-cart-container {		border: 1px solid #DEDEDE !important;	}	.viamagus-cart-container h3.viamagus-product-name {		font-size: 18px;	}	.viamagus-cart-container h4.viamagus-product-price {		font-size: 14px;	}	.viamagus-cart .viamagus-grid-item-info {		color: #333;		background: #fff;		padding: 0 5px !important;	}	.viamagus-cart {		border: 0 !important;	}	.viamagus-cart-img {		background-position: center center;		background-repeat: no-repeat;		background-size: cover;	}	/* Contact */		.viamagus_contact .form-horizontal {		margin: 0;	}	.viamagus_contact ul {		padding: 0;		margin: 0px;	}	.viamagus-contact-form-layout-2 .span4 {		padding: 20px 0px;	}	.viamagus_contact p {		color: inherit;	}	.viamagus_contact input.submit {		margin-top: 20px;	}	.viamagus_contact p.contact-message {		margin: 0px;	}	.viamagus_contact .map {		position: relative !important;		color: #000;	}	.viamagus_contact input[type=text],	.viamagus_contact input[type=email] {		height: 2.90em;		color: white;	}	.viamagus_contact textarea {		color: white;		height: auto;	}	.viamagus_contact input[type=text],	.viamagus_contact input[type=email],	.viamagus_contact textarea {		text-align: left;		vertical-align: middle;		width: 97%;		background: transparent;		color: #000;		border-radius: 0px;		padding: 4px;	}	.viamagus_contact .span6 input[type=text],	.viamagus_contact .span6 input[type=email],	.viamagus_contact .span6 textarea {		width: 98%;	}	.viamagus_contact input,	button,	select,	textarea {		font-family: inherit;	}	.viamagus_contact li {		list-style: none;	}	.viamagus_contact label {		color: #626263;	}	.viamagus_contact .viamagus-contact-form-address {		display: table;		min-height: 180px;	}	.viamagus_contact .viamagus-form-alignment,	.viamagus-google-map .via-align {		display: table-cell;		vertical-align: middle;	}	.viamagus-google-map .span4 {		display: table;		min-height: 300px;	}	.viamagus_contact img {		max-width: none;	}	.viamagus_contact .viamagus-customer-email a {		word-break: break-word;		color: inherit;	}	/* Footer */		.viamagus_footer .copyright-center {		text-align: center;	}	.viamagus_footer .socials-left {		font-size: 20px;		text-align: left;	}	.viamagus_footer .socials-right {		font-size: 20px;		text-align: right;	}	.viamagus_footer .viamagus-paragraph a {		color: inherit;	}	.viamagus_footer .viamagus-paragraph .span3 a {		padding: 0px 10px;		color: inherit;	}	.viamagus_footer a:hover {		opacity: 0.5;		text-decoration: none !important;	}	#logo a:hover {		text-decoration: none;	}	/* SMS Update */		.vm-text-update {		list-style: none;		margin: 20px 0px;	}	.vm-text-update > li > .vm-text-update-panel {		background: rgba(255, 255, 255, 0);		width: calc( 100% - 135px);		float: left;		border: 1px solid #d4d4d4;		border-radius: 2px;		padding: 30px;		color: #626263;	}	.vm-text-update > li {		margin-bottom: 0px;	}	/* Product Listing */		.vm-product-group {		padding: 0px;	}	.vm-product-group .vm-product {		padding: 0 100px;	}	/* Social Wall */		.vm-social-wall .viamagus-heading1 {		text-align: center;		line-height: 1.2;		margin-top: 0;		padding-top: 5px;	}	.vm-social-wall .viamagus-heading3 {		text-align: center;	}	/* Custom CSS Starts here*/		.viamagus-heading2.featurette-heading {		margin-top: 0px;		margin-bottom: 100px;	}	.viamagus-section-heading,	.viamagus-heading2.featurette-heading {		position: relative;	}	.viamagus-section-heading:after,	.viamagus-heading2.featurette-heading:after {		content: "";		border-bottom: 3px solid #62646F;		position: absolute;		bottom: -25px;		left: 0;		width: 60px;	}	/* Responsive CSS Starts here*/		@media (min-width: 650px) {		.viamagus_landimg {			background-attachment: fixed;		}	}	@media ( max-width: 979px) {		.well .viamagus-component-content,		.viamagus_txt-slide .viamagus-component-content {			padding: 0px !important;		}		.viamagus-component-content,		.vm-product-group .vm-product {			padding: 100px 20px !important;		}		.viamagus-component-content-inner {			padding: 0 35px;		}		.viamagus_header .navbar .brand {			padding: 10px 20px 10px;			padding-left: 0px;		}		.viamagus_header .viamagus-component-content {			padding: 0px 20px !important;		}		.viamagus_header .brand img {			max-width: 100px;		}		.viamagus_header .collapse-center {			display: table-cell;			vertical-align: middle;			padding-top: 40px;		}		.viamagus_header .navbar .btn-navbar {			margin-top: 7px;			position: absolute;			right: 18px;		}		.viamagus_header .nav-collapse .dropdown-menu li li a {			margin-bottom: 0px !important;		}		.viamagus_header .navbar-inverse .nav>li a {			padding: 10px 0px 10px 20px !important;		}		.viamagus_header .dropdown-menu {			position: relative;			min-width: 120px;		}		.viamagus_header .dropdown-menu li a {			white-space: normal;			word-break: break-word;		}		.viamagus_header .navbar-inverse .dropdown-menu li a {			padding: 10px 20px !important;		}		#viamagus_columngrid_6253 .viamagus-component-content,		#viamagus_Contact_Form_2992 .viamagus-component-content,		#viamagus_Footer_9963 .viamagus-component-content {			padding: 20px 20px !important;		}		#viamagus_Address_4407 .viamagus-component-content {			padding-top: 20px !important;		}	}	/* Tabs CSS */		@media (max-width: 768px) {		.viamagus-heading1,		.viamagus-heading1 span {			font-size: 36px !important;		}		body {			padding: 0px;		}		.viamagus_footer {			margin: 0px;		}		.viamagus_footer .socials-left,		.viamagus_footer .socials-left {			text-align: center;		}		.viamagus_landimg #box-left,		.viamagus_landimg #video-area {			min-height: 100px;		}		.viamagus_landimg #video-area .hero img {			margin: 10px 0;		}		.columngridone,		.columngridtwo,		.columngridthree {			margin: 10px 0px 30px;		}	}	/* Mobiles CSS */		@media ( max-width: 500px) {		.viamagus-heading1,		.viamagus-heading1 span {			font-size: 32px !important;		}		.featurette-image.pull-left,		.pull-left img.featurette-image {			margin-right: 0px;			margin-top: 0;		}		.featurette-image {			margin: 10px 0px;			width: 100% !important;		}		.featurette-image.pull-right,		.pull-right img.featurette-image {			margin-left: 0px;			margin-top: 0;		}		.viamagus_circlimg .img-responsive {			display: block;			height: auto !important;			max-width: 100%;		}		.carousel-control {			width: 12px;		}		.viamagus_header .menu-center {			display: block;		}		.viamagus_header .collapse-center {			display: block;		}		.viamagus-section-header .viamagus-section-heading {			margin: 0;		}		.viamagus-spacer .viamagus-component-bg-colour {			height: 0 !important;		}	}	</style> <style>	.viamagus_header .navbar-inverse .nav-collapse .nav>li>a {		color: rgba(255, 255, 255, 1);	}	.viamagus_header .dropdown-menu>li>a:hover,	.viamagus_header .dropdown-menu>li>a:focus,	.viamagus_header .dropdown-submenu:hover>a,	.viamagus_header .dropdown-submenu:focus>a {		color: rgba(255, 255, 255, 1) !important;	}	.viamagus_header .navbar-inverse .nav-collapse .nav>li.active>a {		color: rgba(29, 158, 179, 1) !important;	}	.viamagus_header .navbar-inverse .nav-collapse .nav>li.active>a:hover {		color: rgba(29, 158, 179, 1) !important;	}	.viamagus_header li a:hover {		color: rgba(29, 158, 179, 1) !important;	}	.viamagus-heading1 {		font-size: 50px;	}	.viamagus_landimg .viamagus-heading1 {		font-size: 50px;	}	.viamagus_txt-slide .viamagus-heading1 {		font-size: 50px;	}	.slider-text-center-text .viamagus-heading1 {		font-size: 50px;	}	.viamagus-heading3 {		font-size: 18px;	}	.viamagus_landimg .viamagus-heading3 {		font-size: 18px;	}	.viamagus_txt-slide .viamagus-heading3 {		font-size: 18px;	}	.slider-text-center-text .viamagus-heading3 {		font-size: 18px;	}	.viamagus-section-heading {		font-size: 34px;	}	.viamagus-section-header .viamagus-section-heading {		font-size: 34px;	}	.viamagus-heading2 {		font-size: 34px;	}	.viamagus_circlimg .viamagus-heading2 {		font-size: 34px;	}	.viamagus-paragraph {		font-size: 14px;	}	.featurette .viamagus-paragraph {		font-size: 14px;	}	.viamagus-heading1 {		font-weight: bold;	}	.viamagus_landimg .viamagus-heading1 {		font-weight: bold;	}	.viamagus_txt-slide .viamagus-heading1 {		font-weight: bold;	}	.slider-text-center-text .viamagus-heading1 {		font-weight: bold;	}	.viamagus-heading3 {		font-weight: normal;	}	.viamagus_landimg .viamagus-heading3 {		font-weight: normal;	}	.viamagus_txt-slide .viamagus-heading3 {		font-weight: normal;	}	.slider-text-center-text .viamagus-heading3 {		font-weight: normal;	}	.viamagus-section-heading {		font-weight: bold;	}	.viamagus-section-header .viamagus-section-heading {		font-weight: bold;	}	.viamagus-heading2 {		font-weight: bold;	}	.viamagus_circlimg .viamagus-heading2 {		font-weight: bold;	}	.viamagus-paragraph {		font-weight: normal;	}	.featurette .viamagus-paragraph {		font-weight: normal;	}	.viamagus-blog-post-title {		font-size: 36px;	}	.vm-blog .vm-blog-post .post-content h1 {		font-size: 36px;	}	.viamagus-blog-post-desc {		font-size: 14px;	}	.vm-blog .vm-blog-post .post-content {		font-size: 14px;	}	.viamagus-product-name {		font-size: 36px !important;	}	.viamagus-product-desc {		font-size: 14px !important;	}	.viamagus-product-price {		font-size: 14px !important;	}	</style> 
+
+
+<link href="viamagus.net/static/sitebuilder/css/viamagus-singlepage-payment.css" rel="stylesheet"/> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/jquery.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/bootstrap.js"></script> 
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;key=AIzaSyA31dxgf3w10wnsZSEUDCVOGTBJisl0O5s"></script>
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/jquery.backstretch.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/jquery.magnific-popup.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/freewall.js"></script> 
+<script src="oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> 
+<script src="oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> 
+<script src="">
+
+<!-- JQUERY LIBRARY -->
+<script src="angular/jquery.min.js"></script>
+<script src="angular/angular.min.js"></script>
+<script src="angular/angular-route.min.js"></script>
+<script src="angular/ngStorage.min.js"></script>
+<script src="angular/angular-slugify.js"></script>
+<script src="angular/modernizr.min.js"></script>
+<script src="angular/bootstrap.min.js"></script>
+<script src="angular/owl.carousel.min.js"></script>
+<script src="angular/underscore-min.js"></script>
+<script src="angular/moment-with-locales.min.js"></script>
+<script src="angular/angular-moment-picker.min.js"></script>
+<script src="angular/remodal.min.js"></script>
+
+
+<!-- Angular App JS -->
+<script src="angular/app.js"></script>
+<script src="angular/appRoutes.js"></script>
+<script src="angular/ctrl.js"></script>
+<script src="angular/directives.js"></script>
+<script src="angular/services.js"></script>
+
+<!-- CSS -->
+    <link rel="stylesheet" href="angular/bootstrap.min.css">
+    <link rel="stylesheet" href="angular/font-awesome.min.css">
+    <link rel="stylesheet" href="angular/animate.css">
+    <link rel="stylesheet" href="angular/owl.carousel.css">
+    <link rel="stylesheet" href="angular/main.css">
+    <link rel="stylesheet" href="angular/responsive.css">
+    <link rel="stylesheet" href="angular/angular-moment-picker.min.css">
+    <link rel="stylesheet" href="angular/remodal.css">
+    <link rel="stylesheet" href="angular/remodal-default-theme.css">
+    <link rel="stylesheet" href="angular/custom.css">
+
+
+	<!-- font -->
+	<link href="angular/css" rel="stylesheet" type="text/css">
+
+	<!-- favicon icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="http://www.bookinghelpline.co.uk/images/ico/favicon.ico">
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','../www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58602806-1', 'auto');ga('send', 'pageview');</script>
+<title>Booking Helpline</title> 
+</head> 
+<body> <link href="http://fonts.googleapis.com/css?family=Open%20Sans" rel="stylesheet" type="text/css"/> 
+<script>	function loadViaBkgImage() {		if($('.backstretch').length) {			$.backstretch('destroy', false);		}	}	</script> 
+<style>	.viamagusPageSettings {		font-family: 'Open Sans'	}	</style> <div class="viamagusPageSettings"> <div class="viamagus-container"> <div class="viamagus-component viamagus_header" id="viamagus_Menu_3530" data-component-name="Menu" data-sticky-header="true"> <div class="viamagus-component-bg-colour" style="background-color:"> <style>					.viamagus_header .navbar-inverse .nav-collapse .nav>li>a,					.viamagus_header .dropdown-menu>.active>a,					.viamagus_header .dropdown-menu>.active>a:hover,					.viamagus_header .dropdown-menu>.active>a:focus {						font-weight: normal;						font-style: normal;					}					</style> 
+<div class="viamagus-component-content navbar navbar-inverse" style="padding-top:5px;padding-bottom:5px;padding-left:100px;padding-right:100px;"> 
+<div class="navbar-inner" data-bkg-color="" data-transparent-menu-cover-mode="true"> <div class="viamagus-menu-top-row"> </div> <div class="container menu-center"> <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> 
+<span class="icon-bar"></span> <span class="icon-bar"></span> </button> <div class="viamagus-business-logo" itemscope="" itemtype="http://schema.org/Organization"> <a itemprop="url" class="brand " href="index.html" id="logoName"><!--<image src="images/logo.png" alt text="Booking Helpline"/>--> BOOKING HELPLINE</a> </div> 
+<div class="collapse-center" style=""> <div> <ul class="nav" id="menu-nav"> <li> <a style="font-size:12px;" data-toggle="collapse" data-target=".nav-collapse" class="menulink" href="index.html#viamagus_Hero_Section"> HOME </a> </li> 
+<li> <a style="font-size:12px;" data-toggle="collapse" data-target=".nav-collapse" class="menulink" href="index.html#viamagus_Image_Text_5582"> ABOUT US </a> </li> 
+<li> <a style="font-size:12px;" data-toggle="collapse" data-target=".nav-collapse" class="menulink" href="cscs.html#viamagus_Image_Text_6387"> CSCS CARDS </a> </li> 
+<li> <a style="font-size:12px;" data-toggle="collapse" data-target=".nav-collapse" class="menulink" href="health.html#viamagus_Image_Text_2398"> HEALTH & SAFETY TEST </a> </li>
+<li> <a style="font-size:12px;" data-toggle="collapse" data-target="" class="menulink" href="index.html#viamagus_Image_Text_2397"> CLASSROOM COURSES </a> </li>  
+<li> <a style="font-size:12px;" data-toggle="collapse" data-target=".nav-collapse" class="menulink" href="index.html#viamagus_Section_Title_5336"> CONTACT US </a> </li> </ul> </div> </div> </div> </div> </div> </div> </div> 
+<div class="page ng-scope">
+  <div id="breadcrumb-section" class="section">
+    <div class="container">
+      <div class="page-title text-center">
+        <h1>Health &amp; Safety Test</h1>
+        <!--<ol class="breadcrumb">
+          <li><a href="#">Home</a></li>
+          <li class="active">Health &amp; Safety Test</li>
+        </ol>-->
+      </div>
+    </div>
+  </div><!-- breadcrumb-section
+  <div id="search-section">
+    <div class="container">
+      <form action="#">
+        <div class="search-section">
+          <ul>
+            <li>
+              <div class="dropdown category-dropdown">
+                <a data-toggle="dropdown" href="#"><span class="change-text">All Categories</span> <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu category-change">
+                  <li ng-repeat="cat in cats"><a href="#">{{cat.name}}</a></li>
+                </ul>
+              </div><!-- category-change
+            </li>
+            <li>
+              <div class="dropdown category-dropdown">
+                <a data-toggle="dropdown" href="#"><span class="change-text">All Locations</span> <i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu category-change">
+                  <li><a href="#">South London</a></li>
+                  <li><a href="#">Bromley</a></li>
+                  <li><a href="#">Surrey</a></li>
+                </ul>
+              </div><!-- category-change
+            </li>
+            <li>
+              <input type="text" class="form-control" placeholder="What are you looking for ?">
+            </li>
+            <li>
+              <button type="submit" class="form-control btn btn-primary" value="Search">Search</button>
+            </li>
+          </ul>
+        </div>
+      </form>
+    </div>
+  </div><!-- search-section -->
+
+  <div class="all-categories section">
+    <div class="container">
+      <div class="ad-details">
+        <div class="row">
+          <div class="col-md-8 col-sm-7">
+            <div class="item">
+                <div class="detail-item-image item-image carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="angular/test.jpg" alt="" class="img-responsive">
+                    </div>
+                  </div>
+                  <div class="item-price">
+                  <span class="ng-binding">£34.99</span>
+                </div>
+              </div>
+              <div class="details-description">
+
+                <div class="item-info">
+                  <h4>What is the Health, Safety and Environment Test?</h4>
+                  <p>The CITB Health, safety &amp; environment (HS&amp;E) test ensures workers have a minimum level of health, safety and environmental awareness before going on site.</p>
+                  <p>This is a multiple choice test on health, safety and environment issues in construction, taken on a touch Screen at a local accredited testing centre.</p>
+                </div><!-- item-info -->
+                <div class="item-info">
+                  <h4>How long is the CSCS test?</h4>
+                  <p>The Health, Safety &amp; Environment Test lasts 45 minutes. In the test there will be around 50 questions that you need to answer. If you pass, you’ll receive the ticket straight after the test. You need to keep this certificate as it is valid for two years to apply for a CSCS card. Upon a successful CSCS card application your test validity is extended until the expiry of your CSCS card (usually five years).</p>
+                </div><!-- item-info -->
+                <div class="item-info">
+                  <h4>Preparing for the Test</h4>
+                  <p class="ng-binding">You can purchase the official Book or DVD online or over the phone by calling 020 3818 3838.</p>
+                </div><!-- item-info -->
+                <div class="item-info">
+                  <h4>ID Requirements</h4>
+                  <p>Candidates are required to bring&nbsp;one&nbsp;form of identification listed below bearing a photograph and signature.</p>
+                  <ul>
+                    <li>A valid passport of any nationality with a photograph of the candidate and their signature - must be no more than 6 months out of date</li>
+                    <li>A valid UK only driving licence with a photograph of the candidate and the candidate's signature - must be no more than 6 months out of date</li>
+                  </ul>
+                  <p>If a candidate does not have one of these he or she will need&nbsp;two&nbsp;items of valid ID (no more than 6 months out of date), one from List A and one from List B below:</p>
+                  <hr>
+                  <div class="row">
+        					  <div class="col-xs-12 col-sm-6">
+                      <div class="test-column">
+                        <h4>List A</h4>
+                        <ul>
+                          <li>Non UK Driving Licence</li>
+                          <li>Passport without signature</li>
+                          <li>Work ID Card</li>
+                          <li>EU Country ID Card</li>
+                          <li>CITB Scheme Card</li>
+                          <li>Student ID Card</li>
+                          <li>Citizen Card</li>
+                          <li>Trade Union Card</li>
+                          <li>British Armed Forces Card</li>
+                          <li>Proof of Age Card</li>
+                          <li>Young Scots Card</li>
+                        </ul>
+                      </div>
+                    </div>
+        					  <div class="col-xs-12 col-sm-6">
+                      <div class="test-column">
+                        <h4>List B</h4>
+                        <ul>
+                          <li>Credit Card</li>
+                          <li>Debit Card</li>
+                          <li>Paper Driving Licence</li>
+                          <li>UK Travel Document</li>
+                          <li>Inland Revenue Card</li>
+                          <li>National Insurance Card / HMRC letter</li>
+                          <li>B79 Notification of Discharge Letter</li>
+                          <li>Bank Statement</li>
+                          <li>Building Society Passbook</li>
+                          <li>Cheque Guarantee Card</li>
+                        </ul>
+                      </div>
+                    </div>
+        					</div>
+                </div><!-- item-info -->
+                <hr>
+                <div class="item-info">
+                  <p>Photocopies of ID will not be accepted.</p>&nbsp;
+                  <p>If You do not bring suitable ID You will not be allowed to take the Test.</p>
+                </div><!-- item-info -->
+              </div>
+              </div><!-- item -->
+
+          </div>
+
+
+          <div class="col-sm-5 col-md-4">
+            <div class="side-bar">
+
+              <div class="item-author widget">
+                <h4>Apply For Health &amp; Safety Test</h4>
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="seller-info tc">
+                      <p>
+                        <!-- <div ng-click="addCartSubmit(cscsTest.product_no)" class="item-price course-price pointer"><span>Add to Cart</span></div> -->
+                        </p><p></p><div data-remodal-target="book-online-modal" class="item-price course-price pointer  tc"><span>Book Test Online</span></div><p></p>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item-author widget cscs-card">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h4>Types of Health, Safety and Environment Test</h4>
+                    <div class="ad-details item-info">
+                      <ul>
+                        <li>Health, safety and environment test for Operatives&nbsp;</li>
+                        <li>Health, safety and environment specialist Supervisors test</li>
+                        <li>Health, safety and environment test for Managers &amp; Professionals</li>
+                        <li>Health, safety and environment specialist Working at Heights </li>
+                        <li>Health, safety and environment specialist Demolition test </li>
+                        <li>Health, safety and environment specialist HVACR test (Ductwork)</li>
+                        <li>Health, safety and environment specialist HVACR test (Heating &amp; Plumbing)</li>
+                        <li>Health, safety and environment specialist Highways Works test</li>
+                        <li>Health, safety and environment specialist Lifts &amp; Escalators test </li>
+                        <li>Health, safety and environment specialist HVACR test (Pipefitting &amp; Welding)</li>
+                        <li>Health, safety and environment specialist Plumbing or Gas test </li>
+                        <li>Health, safety and environment specialist HVACR test (Refrigeration &amp; Air Conditioning)</li>
+                        <li>Health, safety and environment specialist HVACR (Services &amp; Facilities)</li>
+                        <li>Health, safety and environment specialist Tunnelling Test </li>
+                        <li>Health, safety and environment test for operative’s&nbsp;test for Labourers with L1 Award</li>
+                        <li>CPCS Renewal test </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="contact-seller widget">
+                <h4>Contact Booking Helpline</h4>
+                <form id="contact-form" class="contact-form ng-pristine ng-valid" name="contact-form" action="https://formsubmit.io/send/query@bookinghelpline.co.uk" method="POST">
+                  <input name="_redirect" type="hidden" id="name" value="http://www.bookinghelpline.co.uk?src=sent" autocomplete="off">
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="text" class="form-control" required placeholder="Name">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <input type="email" class="form-control" required placeholder="Email Id">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" class="form-control" required placeholder="Subject">
+                      </div>
+                    </div>
+
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <textarea name="message" id="message" required class="form-control" rows="7" placeholder="Message"></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Submit Message</button>
+                  </div>
+
+                </form>
+              </div>
+
+
+            </div><!-- side-bar -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- all-categories -->
+</div>
+
+<!--********************************************************************************************-->
+
+<div foot="" class="ng-scope"><!-- footer -->
+<footer id="footer">
+  <div class="footer-top section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="footer-widget about-widget">
+            <h3>About Booking Helpline</h3>
+            <p>Book your cscs card, test and courses here.</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="footer-widget link-widget">
+            <h3>Useful Links</h3>
+            <ul>
+              <!--<li><a href="/contact"> <i class="fa fa-angle-double-right"></i> Contact</a></li>-->
+              <!--<li><a href="/about"> <i class="fa fa-angle-double-right"></i> About us</a></li>-->
+              <li><a href="privacy.html"> <i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
+              <li><a href="terms.html"> <i class="fa fa-angle-double-right"></i> Terms Of Service</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="footer-widget contact-widget">
+            <h3>Contact Us</h3>
+            <ul>
+               <li><span><i class="fa fa-map-marker"></i> Address :</span> 21 Ledbury Place, Croydon, CR0 1ET</li>
+                   <li><span><i class="fa fa-phone"></i> Phone number :</span> 0203 8183 838</li>
+                   <li><span><i class="fa fa-envelope"></i> E-mail :</span> <a href="mailto:#">query@bookinghelpline.co.uk</a></li>
+                   <li>
+                    <ul class="list-inline social">
+                  <li><a class="facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fa fa-twitter-square"></i></a></li>
+                  <li><a class="google" href="#"><i class="fa fa-google-plus-square"></i></a></li>
+                  <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li><a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a></li>
+                </ul>
+                   </li>
+                </ul>
+          </div>
+        </div>
+      </div>
+    </div><!-- container -->
+  </div><!-- footer-top -->
+
+
+  <div class="footer-bottom clearfix">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>© 2017 Booking Helpline.</p>
+        </div>
+        <div class="col-sm-6">
+          <!-- <div class="payment-opt-icons">
+            <span>Payments </span>
+            <ul>
+                            <li><img src="images/others/1.png" alt="" class="img-responsive"></li>
+                            <li><img src="images/others/2.png" alt="" class="img-responsive"></li>
+                            <li><img src="images/others/3.png" alt="" class="img-responsive"></li>
+                            <li><img src="images/others/4.png" alt="" class="img-responsive"></li>
+                            <li><img src="images/others/5.png" alt="" class="img-responsive"></li>
+                        </ul>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div><!-- footer-bottom -->
+</div></footer><!-- footer -->
+</div>
+
+<div class="remodal-overlay remodal-is-closed" style="display: none;"></div>
+
+<div class="remodal-wrapper remodal-is-closed" style="display: none;"><div class="remodal ng-scope remodal-is-initialized remodal-is-closed" data-remodal-id="book-online-modal" tabindex="-1">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  <h1>Book Test Online</h1>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <div class="form-group">
+          <input ng-model="testDetails.testDate" change="processTestDate()" moment-picker="testDetails.testDate" format="DD-MM-YYYY" type="text" name="first_name" id="first_name" class="form-control ng-pristine ng-untouched ng-valid ng-isolate-scope moment-picker-reference ng-empty ng-valid-min-date ng-valid-max-date" placeholder="Preferred Test Date" tabindex="0">
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <div class="form-group">
+        <input ng-model="testDetails.testTime" value="" change="processTestTime()" show-header="false" min-view="day" moment-picker="testDetails.testTime" format="HH:[00]" type="text" name="last_name" id="last_name" class="form-control ng-pristine ng-untouched ng-valid ng-isolate-scope moment-picker-reference ng-empty ng-valid-min-date ng-valid-max-date" placeholder="Preferred Start Time" tabindex="0">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <div class="form-group">
+          <select ng-model="testDetails.type" ng-options="c.name for c in testTypes" class="form-control ng-pristine ng-untouched ng-valid ng-not-empty"><option label="Please Select Test Type" value="object:89" selected="selected">Please Select Test Type</option><option label="Operative" value="object:90">Operative</option><option label="Supervisory" value="object:91">Supervisory</option><option label="Managerial &amp; Professional" value="object:92">Managerial &amp; Professional</option><option label="Plumbing and Gas" value="object:93">Plumbing and Gas</option><option label="Highways" value="object:94">Highways</option><option label="Pipefitting/Welding (HVACR)" value="object:95">Pipefitting/Welding (HVACR)</option><option label="Ductwork (HVACR)" value="object:96">Ductwork (HVACR)</option><option label="National Demolition Training Group" value="object:97">National Demolition Training Group</option><option label="Lift and Escalator" value="object:98">Lift and Escalator</option><option label="Working at Heights" value="object:99">Working at Heights</option><option label="Tunnelling" value="object:100">Tunnelling</option><option label="Heating and Plumbing Services" value="object:101">Heating and Plumbing Services</option><option label="Refrigeration and Air Conditioning" value="object:102">Refrigeration and Air Conditioning</option><option label="Services and Facilities Maintenance" value="object:103">Services and Facilities Maintenance</option></select>
+          <span class="select-arrow">▼</span>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <div class="form-group">
+        <select ng-model="testDetails.voiceover" ng-options="c.name for c in voiceoverList" class="form-control ng-pristine ng-untouched ng-valid ng-not-empty"><option label="Please Select Language" value="object:104" selected="selected">Please Select Language</option><option label="English" value="object:105">English</option><option label="Welsh" value="object:106">Welsh</option></select>
+        <span class="select-arrow">▼</span>
+      </div>
+    </div>
+  </div>
+  <br>
+  <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
+  <button ng-click="addCartSubmitWait(cscsTest.product_no)" class="remodal-confirm">OK</button>
+</div></div>
+
+
+
+ <script src="viamagus.net/static/sitebuilder/js/galleria.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/galleria.classicmod.js"></script> <script src="viamagus.net/static/sitebuilder/js/wow.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/jquery.nav.js"></script> <script src="viamagus.net/static/sitebuilder/js/jquery.elastislide.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/jquery.mb.YTPlayer.js"></script> <script src="viamagus.net/static/sitebuilder/js/jquery.lazyload.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/viamagus-loader.js"></script> <script src="viamagus.net/static/sitebuilder/js/viamagus-transaction-manager.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/jquery.pickmeup.js"></script> <script src="viamagus.net/static/sitebuilder/js/jquery.raty.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/jquery.validate.js"></script> <script src="viamagus.net/static/sitebuilder/js/jquery.form.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/dropzone.js"></script> <script type="text/javascript" src="viamagus.net/static/sitebuilder/js/intlTelInput.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/bootstrap-combobox.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/jquery.parascroll.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/plugins.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/viamagus-website-loader.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/viamagus-form-loader.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/viamagus-singlepage-payment-v1.js"></script> 
+<script>	$(function() {		Viamagus_Website_Loader._init();		Viamagus_Form_Loader._init();	});	</script> </body> 
+
+</html>

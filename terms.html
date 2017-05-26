@@ -1,0 +1,403 @@
+<!DOCTYPE html> <html> 
+<head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+<meta name="HandheldFriendly" content="true"/> <meta name="MobileOptimized" content="480"/> 
+<link href="viamagus.net/static/sitebuilder/css/viamagus-publish-sites.css" rel="stylesheet"/> 
+<link href="netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/> 
+<style>	/* SKYLINE Generic CSS starts */		#playarea #target,	.viamagus-container {}.container-fluid {		padding: 0px;	}	.viamagus-heading1 {		text-transform: uppercase;		color: #fff;		line-height: 1.2;	}	.viamagus-heading3 {		text-transform: uppercase;		color: #fff;		line-height: 1.25;	}	.viamagus-section-heading {		text-transform: uppercase;		color: #62646f;		line-height: 1.25;		letter-spacing: 1px;	}	.viamagus-heading2 {		text-transform: uppercase;		color: #62646f;		line-height: 1.25;		letter-spacing: 1px;	}	.viamagus-paragraph {		color: #898b93;		line-height: 1.5;		word-break: break-word;	}	.viamagus-heading2.featurette-heading {		margin-top: 0px	}	.viamagus-component-content {		padding: 20px 100px;		max-width: 1366px;		margin: auto;	}	.well .viamagus-component-content,	.viamagus_txt-slide .viamagus-component-content {		padding: 0px;		max-width: 100%;		margin: auto;	}	.viamagus-spacer .viamagus-component-content {		padding: 0px 100px;	}	.viamagus-component-content-inner {		padding: 0px 100px;		max-width: 1366px;		margin: auto;		margin-top: 10px;		margin-bottom: 10px;	}	.viamagus_landimg .viamagus-component-content {		margin: auto !important;		padding-top: 0px !important;		padding-bottom: 0px !important;	}	.viamagus_footer .viamagus-component-content {		padding: 35px 100px 0 100px;	}	.vm-social-wall .viamagus-component-content {		padding: 0px;	}	.viamagus-background .backstretch:before {		position: absolute;		content: '';		width: 100%;		height: 100%;		background: rgba(0, 0, 0, 0.1)	}	.viamagus-button-default {		background: #1E9FB4;		border: 0px solid;		font-size: 14px;		color: #fff;		margin: auto;		border-radius: 0px;		text-shadow: 0 0 0;		padding: 12px 25px;		margin-top: 20px;	}	.viamagus-button-default:hover {		background: #333;		color: #fff;	}	.viamagus-button-flat {		background: #1E9FB4;		padding: 20px 45px;		text-shadow: 0 0 0;		color: #fff;		font-size: 17px;		text-decoration: none;		border: none;		vertical-align: middle;		border-radius: 0;		margin-top: 20px;	}	.viamagus-button-flat:hover {		background: #d60742;		color: #fff;	}	.viamagus-button-transparent {		background: rgba(0, 0, 0, 0);		border: 2px solid;		color: #fff;		margin: auto;		border-radius: 0px;		text-shadow: 0 0 0;		padding: 10px 30px;		margin-top: 20px;	}	.viamagus-button-transparent:hover {		background: rgba(0, 0, 0, 0.2);		color: #fff;	}	.mfp-figure:after {		box-shadow: none;		background: none;	}	/* Nav Bar/Header */		.viamagus_header {		display: block;		position: relative;		z-index: 1;	}	.viamagus_header .viamagus-component-bg-colour {		background-color: #494B55;	}	.viamagus_header .navbar {		margin-bottom: 0px !important;		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);	}	.viamagus_header .navbar-inner {		background: none;		padding: 0px;		border-radius: 0px;		border: 0px;		box-shadow: 0 0 0;	}	.viamagus_header .nav {		list-style: none;		position: relative;		float: right;		margin: 0;	}	.viamagus_header .brand {		color: #FFF;		margin-left: 0px;		padding-left: 0px;		text-shadow: none;		text-transform: uppercase;	}	.viamagus_header .brand:hover {		color: #1E9FB4;	}	.viamagus_header .brandcenter {		width: 100%;		margin-left: -20px;	}	.viamagus_header .navbar-inverse .nav-collapse .nav>li.active>a {		background: none;		color: #1D9EB3;		-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.125);		box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.125);		outline: none;	}	.viamagus_header .navbar-inverse .nav>li>a {		text-shadow: 0 0 0;		padding: 10px 20px 10px 20px;	}	.viamagus_header .navbar-inverse .nav>li:last-child a {		padding: 10px 0px 10px 20px;	}	.viamagus_header .nav li a {		display: block;		color: #fff;		font-size: 14px;		font-weight: 100;		letter-spacing: 1px;	}	.viamagus_header .nav li a:hover {		text-decoration: none;		color: #2e3133;	}	.viamagus_header .navbar .btn-navbar {		margin-top: 15px;	}	.viamagus_header .navbar-inverse .nav-collapse .nav>li>a {		background: none;		text-align: right;	}	.viamagus_header .navbar-inverse .nav-collapse .nav>li>a:hover {		background: none;		color: #333;	}	.viamagus_header .menu-center {		display: table;		text-align: center;		width: 100% !important;	}	.viamagus_header .logomenu-center {		display: table;		text-align: center;		width: auto !important;	}	.viamagus_header .collapse-center {		display: table-cell;		vertical-align: middle;	}	.viamagus_header .collapse-centerbrand {		display: table;		margin: auto;	}	.viamagus-sticky-header {		position: fixed !important;		top: 0;		width: 100%;		z-index: 1010;	}	.viamagus_header .dropdown-menu {		border: 0;		border-top: 2px solid #F1720C;		border-radius: 0px;		background: #fff;		margin-top: 10px;		position: absolute;		top: 100%;		right: 0px !important;		margin-top: 10px;		left: auto;		padding: 0;	}	.viamagus_header .navbar .nav>li>.dropdown-menu:after {		left: auto !important;		right: 17px !important;	}	.viamagus_header .navbar .nav>li>.dropdown-menu:before {		left: auto !important;		right: 17px !important;	}	.viamagus_header .navbar .nav>li>.dropdown-menu:before {		position: absolute;		top: -8px;		display: inline-block;		border-right: 7px solid transparent;		border-bottom: 7px solid transparent;		border-left: 7px solid transparent;		border-bottom-color: rgba(0, 0, 0, 0.2);		content: '';	}	.viamagus_header .navbar .nav>li>.dropdown-menu:after {		position: absolute;		top: -8px;		display: inline-block;		border-right: 7px solid transparent;		border-bottom: 7px solid #F1720C;		border-left: 6px solid transparent;		content: '';	}	.viamagus_header .dropdown-menu li a {		background: none;		border-bottom: 1px solid #e7e7e7;		color: #444 !important;		border-bottom: 1px solid #e7e7e7;		font-weight: 400;		font-size: 14px;		line-height: 35px;		text-align: right;		padding: 3px 15px;		-webkit-transition: all 200ms ease-in;		-o-transition: all 200ms ease-in;		-moz-transition: all 200ms ease-in;		transition: all 200ms ease-in;	}	.viamagus_header .navbar-inverse .nav li.dropdown.open>.dropdown-toggle {		background: none;	}	.viamagus_header .navbar-inverse .nav li.dropdown>.dropdown-toggle .caret {		border-top-color: #999;		border-bottom-color: #999;	}	.viamagus_header .navbar-inverse .nav li.dropdown>.dropdown-toggle .caret:hover {		border-top-color: #e33b00;		border-bottom-color: #e33b00;	}	.viamagus_header .dropdown-menu>li>a:hover,	.dropdown-menu>li>a:focus,	.dropdown-submenu:hover>a,	.dropdown-submenu:focus>a {		background: #000;		color: #777;	}	.viamagus_header .dropdown-menu>.active>a,	.dropdown-menu>.active>a:hover,	.dropdown-menu>.active>a:focus {		background: none;		text-align: right;	}	.viamagus_header .navbar-inverse .nav li.dropdown.open>.dropdown-toggle,	.navbar-inverse .nav li.dropdown.active>.dropdown-toggle,	.navbar-inverse .nav li.dropdown.open.active>.dropdown-toggle {		color: #999;		background-color: none;	}	.viamagus_header .navbar-inverse .nav-collapse .dropdown-menu a:hover {		background: none;	}	/* Hero Section/Landing Image */		.viamagus_landimg {		-webkit-background-size: cover;		background-size: cover;		background-repeat: no-repeat;		box-sizing: border-box;		display: block;		background-color: rgba(0, 0, 0, 0);		width: 100%;	}	.viamagus_landimg .viamagus-component-bg-colour {		width: 100%;	}	.displayTable {		display: table;		width: 100%;	}	.displayTableCell {		display: table-cell;		width: 100%;		vertical-align: middle;		height: 500px;	}	.viamagus_landimg .box-video {		overflow: hidden;	}	.viamagus_landimg #video-area,	.viamagus_landimg #box-left {		display: table;		min-height: 350px;	}	.viamagus_landimg #video-area .hero {		text-align: center;	}	.viamagus_landimg #video-area .hero img {		max-height: 350px;		float: none;	}	.viamagus_landimg .hero {		display: table-cell;		vertical-align: middle;	}	.viamagus_landimg .hero-img-center img {		max-height: 150px;	}	.viamagus_landimg #box-center {		max-height: 350px;	}	.viamagus_landimg .text-center .viamagus-cart-button {		text-align: center !important;	}	/* Image */		.viamagus_image {		margin: 0px;		display: table;		width: 100%;	}	.viamagus_image img {		margin: auto;		vertical-align: middle;		display: block;		text-align: center;	}	/* Image/text */		.viamagus-image-text .featurette {		overflow: hidden;		background: ;	}	.viamagus-image-text .featurette .span6 {		margin: 0px;	}	.viamagus-image-text .featurette-image {		position: relative;		z-index: 10;	}	.featurette-image.pull-right,	.pull-right img.featurette-image {		margin-left: 30px;	}	.featurette-image.pull-left,	.pull-left img.featurette-image {		margin-right: 30px;	}	.featurette .lead {		margin: 0px;	}	.viamagus-image-text ol,	.viamagus-image-text ul {		list-style-position: inside;		margin: 0;	}	/* 3 Column Grid */		.columngrid-wrap img.why-section {		float: left;		margin-right: 10px;	}	.viamagus_circlimg img.why-section {		border-radius: 0px;	}	.viamagus_circlimg img:hover {		opacity: 0.9;		filter: alpha(opacity=90);	}	.viamagus_circlimg ul,	.viamagus_circlimg ol {		list-style-position: inside;		margin: 0;	}	/* Text Slider */		.viamagus_txt-slide .block {		display: table;		border: 0px !important;		background: none !important;		margin: 0em;		border-top: none;	}	.viamagus_txt-slide .center {		display: table-cell;		vertical-align: middle;	}	.viamagus_txt-slide .carousel-control.left {		left: 0px;	}	.viamagus_txt-slide .carousel-control.right {		right: 0px;	}	.viamagus_txt-slide .carousel-control.right,	.viamagus_txt-slide .carousel-control.left {		-moz-outline-style: none;		outline: none;		border-radius: 0;		border: 0 none;		width: 10px;		background-color: transparent;		opacity: 0.9;		margin-top: 0px;		color: #fff;		font-size: 30px;		display: block;		padding: 0 25px;		height: 100%;		top: 0;	}	.viamagus_txt-slide .carousel-control .arrow {		display: block;		position: absolute;		top: 50%;		margin-top: -16px;	}	.viamagus_txt-slide .carousel-control.right .arrow {		left: 35px;		color: #fff;	}	.viamagus_txt-slide .carousel-control.left .arrow {		right: 35px;		color: #fff;	}	.viamagus_txt-slide .carousel-control.hide {		display: none !important;	}	.viamagus_txt-slide .hidden-phone {		display: block !important;	}	.viamagus_txt-slide .fa-2x {		font-size: 35px;	}	/* Carousel */		.well {		background-color: transparent;		border-radius: 0px;		border: 0px;		margin-bottom: 0px;	}	.carousel {		margin-bottom: 0px;	}	.carousel-control {		background: transparent;		border: none;		opacity: .7;		width: 22px;	}	.well .carousel-indicators {		right: 100px !important;	}	.well .carousel-control {		position: absolute;		top: 51% !important;	}	.carousel-inner > .item > img {		margin: 0 auto;		top: 0;		left: 0;	}	.viamagus-carousel-slider-info {		background: rgba(1, 1, 1, 0.6);		position: absolute;		bottom: 0;		width: 100%;		padding-bottom: 5px;	}	.viamagus-carousel-slider-text {		position: absolute;		top: 0;		left: 0;		bottom: 0;		right: 0;		display: block;	}	.slider-text-center {		display: table;		width: 100%;	}	.slider-text-center-text {		display: table-cell;		vertical-align: middle;	}	.viamagus-clients-list .elastislide-list li {		width: auto !important;		max-width: none !important;		max-height: none !important;	}	/*Media Galleria */		.galleria {		background: transparent;	}	.galleria .notouch {		background: transparent;	}	/* Grid Gallery Starts Here */		.viamagus-grid-item.viamagus-grid {		position: absolute;		width: 200px;		background-position: center center;		background-repeat: no-repeat;		background-size: cover;	}	.viamagus-grid img {		max-width: 100%;		width: 100%;		display: block;		-webkit-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);		-moz-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);		-o-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);		transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);		-webkit-transform-origin: 50% 0%;		-moz-transform-origin: 50% 0%;		-o-transform-origin: 50% 0%;		-ms-transform-origin: 50% 0%;		transform-origin: 50% 0%;	}	.viamagus-grid .viamagus-grid-item-info {		bottom: 0;		text-overflow: ellipsis;		background: #F7F5F2;		padding: 30px;		position: absolute;		top: 0;		left: 0;		z-index: 1000;		width: 100%;		height: 100%;		display: block;		color: #45494d;		-moz-opacity: 0;		opacity: 0;		-webkit-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		-moz-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		-o-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		-webkit-box-sizing: border-box;		-moz-box-sizing: border-box;		box-sizing: border-box;	}	.viamagus-grid .viamagus-grid-item-info:hover {		opacity: 0.9;	}	.viamagus-grid h4 {		padding: 0px 5px;	}	/* Masonry */		.viamagus-masonry .viamagus-grid-item-info {		color: #333;		background: #fff;		padding: 1px;	}	.viamagus-masonry .viamagus-grid-item-info h4 {		margin: 5px 0;		padding: 0 10px 5px;	}	.viamagus-masonry .viamagus-grid-item-info div {		padding: 0px 10px 5px;	}	.viamagus-masonry img {		width: 100%;		height: auto;		margin: 0px;		padding: 0px;		display: block;	}	.viamagus-grid-gallery .image-bottom {		color: #333;		background: #fff;		bottom: 0;		position: absolute;		width: 100%;	}	.viamagus-grid-gallery .image-top {		color: #333;		background: #fff;		top: 0;		position: absolute;		width: 100%;	}	.viamagus-grid-gallery .image-hover {		bottom: 0;		background: #F7F5F2;		padding: 30px;		position: absolute;		top: 0;		left: 0;		z-index: 1000;		width: 100%;		height: 100%;		display: block;		color: #45494d;		-moz-opacity: 0;		opacity: 0;		-webkit-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		-moz-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		-o-transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);		-webkit-box-sizing: border-box;		-moz-box-sizing: border-box;		box-sizing: border-box;	}	.viamagus-grid-gallery .image-hover {		word-wrap: break-word;	}	.viamagus-grid-gallery .viamagus-grid .image-hover:hover {		opacity: 0.9;	}	/* viamagus-cart */		.viamagus-cart-container {		border: 1px solid #DEDEDE !important;	}	.viamagus-cart-container h3.viamagus-product-name {		font-size: 18px;	}	.viamagus-cart-container h4.viamagus-product-price {		font-size: 14px;	}	.viamagus-cart .viamagus-grid-item-info {		color: #333;		background: #fff;		padding: 0 5px !important;	}	.viamagus-cart {		border: 0 !important;	}	.viamagus-cart-img {		background-position: center center;		background-repeat: no-repeat;		background-size: cover;	}	/* Contact */		.viamagus_contact .form-horizontal {		margin: 0;	}	.viamagus_contact ul {		padding: 0;		margin: 0px;	}	.viamagus-contact-form-layout-2 .span4 {		padding: 20px 0px;	}	.viamagus_contact p {		color: inherit;	}	.viamagus_contact input.submit {		margin-top: 20px;	}	.viamagus_contact p.contact-message {		margin: 0px;	}	.viamagus_contact .map {		position: relative !important;		color: #000;	}	.viamagus_contact input[type=text],	.viamagus_contact input[type=email] {		height: 2.90em;		color: white;	}	.viamagus_contact textarea {		color: white;		height: auto;	}	.viamagus_contact input[type=text],	.viamagus_contact input[type=email],	.viamagus_contact textarea {		text-align: left;		vertical-align: middle;		width: 97%;		background: transparent;		color: #000;		border-radius: 0px;		padding: 4px;	}	.viamagus_contact .span6 input[type=text],	.viamagus_contact .span6 input[type=email],	.viamagus_contact .span6 textarea {		width: 98%;	}	.viamagus_contact input,	button,	select,	textarea {		font-family: inherit;	}	.viamagus_contact li {		list-style: none;	}	.viamagus_contact label {		color: #626263;	}	.viamagus_contact .viamagus-contact-form-address {		display: table;		min-height: 180px;	}	.viamagus_contact .viamagus-form-alignment,	.viamagus-google-map .via-align {		display: table-cell;		vertical-align: middle;	}	.viamagus-google-map .span4 {		display: table;		min-height: 300px;	}	.viamagus_contact img {		max-width: none;	}	.viamagus_contact .viamagus-customer-email a {		word-break: break-word;		color: inherit;	}	/* Footer */		.viamagus_footer .copyright-center {		text-align: center;	}	.viamagus_footer .socials-left {		font-size: 20px;		text-align: left;	}	.viamagus_footer .socials-right {		font-size: 20px;		text-align: right;	}	.viamagus_footer .viamagus-paragraph a {		color: inherit;	}	.viamagus_footer .viamagus-paragraph .span3 a {		padding: 0px 10px;		color: inherit;	}	.viamagus_footer a:hover {		opacity: 0.5;		text-decoration: none !important;	}	#logo a:hover {		text-decoration: none;	}	/* SMS Update */		.vm-text-update {		list-style: none;		margin: 20px 0px;	}	.vm-text-update > li > .vm-text-update-panel {		background: rgba(255, 255, 255, 0);		width: calc( 100% - 135px);		float: left;		border: 1px solid #d4d4d4;		border-radius: 2px;		padding: 30px;		color: #626263;	}	.vm-text-update > li {		margin-bottom: 0px;	}	/* Product Listing */		.vm-product-group {		padding: 0px;	}	.vm-product-group .vm-product {		padding: 0 100px;	}	/* Social Wall */		.vm-social-wall .viamagus-heading1 {		text-align: center;		line-height: 1.2;		margin-top: 0;		padding-top: 5px;	}	.vm-social-wall .viamagus-heading3 {		text-align: center;	}	/* Custom CSS Starts here*/		.viamagus-heading2.featurette-heading {		margin-top: 0px;		margin-bottom: 100px;	}	.viamagus-section-heading,	.viamagus-heading2.featurette-heading {		position: relative;	}	.viamagus-section-heading:after,	.viamagus-heading2.featurette-heading:after {		content: "";		border-bottom: 3px solid #62646F;		position: absolute;		bottom: -25px;		left: 0;		width: 60px;	}	/* Responsive CSS Starts here*/		@media (min-width: 650px) {		.viamagus_landimg {			background-attachment: fixed;		}	}	@media ( max-width: 979px) {		.well .viamagus-component-content,		.viamagus_txt-slide .viamagus-component-content {			padding: 0px !important;		}		.viamagus-component-content,		.vm-product-group .vm-product {			padding: 100px 20px !important;		}		.viamagus-component-content-inner {			padding: 0 35px;		}		.viamagus_header .navbar .brand {			padding: 10px 20px 10px;			padding-left: 0px;		}		.viamagus_header .viamagus-component-content {			padding: 0px 20px !important;		}		.viamagus_header .brand img {			max-width: 100px;		}		.viamagus_header .collapse-center {			display: table-cell;			vertical-align: middle;			padding-top: 40px;		}		.viamagus_header .navbar .btn-navbar {			margin-top: 7px;			position: absolute;			right: 18px;		}		.viamagus_header .nav-collapse .dropdown-menu li li a {			margin-bottom: 0px !important;		}		.viamagus_header .navbar-inverse .nav>li a {			padding: 10px 0px 10px 20px !important;		}		.viamagus_header .dropdown-menu {			position: relative;			min-width: 120px;		}		.viamagus_header .dropdown-menu li a {			white-space: normal;			word-break: break-word;		}		.viamagus_header .navbar-inverse .dropdown-menu li a {			padding: 10px 20px !important;		}		#viamagus_columngrid_6253 .viamagus-component-content,		#viamagus_Contact_Form_2992 .viamagus-component-content,		#viamagus_Footer_9963 .viamagus-component-content {			padding: 20px 20px !important;		}		#viamagus_Address_4407 .viamagus-component-content {			padding-top: 20px !important;		}	}	/* Tabs CSS */		@media (max-width: 768px) {		.viamagus-heading1,		.viamagus-heading1 span {			font-size: 36px !important;		}		body {			padding: 0px;		}		.viamagus_footer {			margin: 0px;		}		.viamagus_footer .socials-left,		.viamagus_footer .socials-left {			text-align: center;		}		.viamagus_landimg #box-left,		.viamagus_landimg #video-area {			min-height: 100px;		}		.viamagus_landimg #video-area .hero img {			margin: 10px 0;		}		.columngridone,		.columngridtwo,		.columngridthree {			margin: 10px 0px 30px;		}	}	/* Mobiles CSS */		@media ( max-width: 500px) {		.viamagus-heading1,		.viamagus-heading1 span {			font-size: 32px !important;		}		.featurette-image.pull-left,		.pull-left img.featurette-image {			margin-right: 0px;			margin-top: 0;		}		.featurette-image {			margin: 10px 0px;			width: 100% !important;		}		.featurette-image.pull-right,		.pull-right img.featurette-image {			margin-left: 0px;			margin-top: 0;		}		.viamagus_circlimg .img-responsive {			display: block;			height: auto !important;			max-width: 100%;		}		.carousel-control {			width: 12px;		}		.viamagus_header .menu-center {			display: block;		}		.viamagus_header .collapse-center {			display: block;		}		.viamagus-section-header .viamagus-section-heading {			margin: 0;		}		.viamagus-spacer .viamagus-component-bg-colour {			height: 0 !important;		}	}	</style> <style>	.viamagus_header .navbar-inverse .nav-collapse .nav>li>a {		color: rgba(255, 255, 255, 1);	}	.viamagus_header .dropdown-menu>li>a:hover,	.viamagus_header .dropdown-menu>li>a:focus,	.viamagus_header .dropdown-submenu:hover>a,	.viamagus_header .dropdown-submenu:focus>a {		color: rgba(255, 255, 255, 1) !important;	}	.viamagus_header .navbar-inverse .nav-collapse .nav>li.active>a {		color: rgba(29, 158, 179, 1) !important;	}	.viamagus_header .navbar-inverse .nav-collapse .nav>li.active>a:hover {		color: rgba(29, 158, 179, 1) !important;	}	.viamagus_header li a:hover {		color: rgba(29, 158, 179, 1) !important;	}	.viamagus-heading1 {		font-size: 50px;	}	.viamagus_landimg .viamagus-heading1 {		font-size: 50px;	}	.viamagus_txt-slide .viamagus-heading1 {		font-size: 50px;	}	.slider-text-center-text .viamagus-heading1 {		font-size: 50px;	}	.viamagus-heading3 {		font-size: 18px;	}	.viamagus_landimg .viamagus-heading3 {		font-size: 18px;	}	.viamagus_txt-slide .viamagus-heading3 {		font-size: 18px;	}	.slider-text-center-text .viamagus-heading3 {		font-size: 18px;	}	.viamagus-section-heading {		font-size: 34px;	}	.viamagus-section-header .viamagus-section-heading {		font-size: 34px;	}	.viamagus-heading2 {		font-size: 34px;	}	.viamagus_circlimg .viamagus-heading2 {		font-size: 34px;	}	.viamagus-paragraph {		font-size: 14px;	}	.featurette .viamagus-paragraph {		font-size: 14px;	}	.viamagus-heading1 {		font-weight: bold;	}	.viamagus_landimg .viamagus-heading1 {		font-weight: bold;	}	.viamagus_txt-slide .viamagus-heading1 {		font-weight: bold;	}	.slider-text-center-text .viamagus-heading1 {		font-weight: bold;	}	.viamagus-heading3 {		font-weight: normal;	}	.viamagus_landimg .viamagus-heading3 {		font-weight: normal;	}	.viamagus_txt-slide .viamagus-heading3 {		font-weight: normal;	}	.slider-text-center-text .viamagus-heading3 {		font-weight: normal;	}	.viamagus-section-heading {		font-weight: bold;	}	.viamagus-section-header .viamagus-section-heading {		font-weight: bold;	}	.viamagus-heading2 {		font-weight: bold;	}	.viamagus_circlimg .viamagus-heading2 {		font-weight: bold;	}	.viamagus-paragraph {		font-weight: normal;	}	.featurette .viamagus-paragraph {		font-weight: normal;	}	.viamagus-blog-post-title {		font-size: 36px;	}	.vm-blog .vm-blog-post .post-content h1 {		font-size: 36px;	}	.viamagus-blog-post-desc {		font-size: 14px;	}	.vm-blog .vm-blog-post .post-content {		font-size: 14px;	}	.viamagus-product-name {		font-size: 36px !important;	}	.viamagus-product-desc {		font-size: 14px !important;	}	.viamagus-product-price {		font-size: 14px !important;	}	</style> 
+<link href="viamagus.net/static/sitebuilder/css/viamagus-singlepage-payment.css" rel="stylesheet"/> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/jquery.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/bootstrap.js"></script> 
+<!--<script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;key=AIzaSyA31dxgf3w10wnsZSEUDCVOGTBJisl0O5s"></script> -->
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/jquery.backstretch.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/jquery.magnific-popup.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/freewall.js"></script> 
+<script src="oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+
+
+<!-- JQUERY LIBRARY -->
+<script src="angular/jquery.min.js"></script>
+<script src="angular/angular.min.js"></script>
+<script src="angular/angular-route.min.js"></script>
+<script src="angular/ngStorage.min.js"></script>
+<script src="angular/angular-slugify.js"></script>
+<script src="angular/modernizr.min.js"></script>
+<script src="angular/bootstrap.min.js"></script>
+<script src="angular/owl.carousel.min.js"></script>
+<script src="angular/underscore-min.js"></script>
+<script src="angular/moment-with-locales.min.js"></script>
+<script src="angular/angular-moment-picker.min.js"></script>
+<script src="angular/remodal.min.js"></script>
+
+
+<!-- Angular App JS -->
+<script src="angular/app.js"></script>
+<script src="angular/appRoutes.js"></script>
+<script src="angular/ctrl.js"></script>
+<script src="angular/directives.js"></script>
+<script src="angular/services.js"></script>
+
+<!-- CSS -->
+    <link rel="stylesheet" href="angular/bootstrap.min.css">
+    <link rel="stylesheet" href="angular/font-awesome.min.css">
+    <link rel="stylesheet" href="angular/animate.css">
+    <link rel="stylesheet" href="angular/owl.carousel.css">
+    <link rel="stylesheet" href="angular/main.css">
+    <link rel="stylesheet" href="angular/responsive.css">
+    <link rel="stylesheet" href="angular/angular-moment-picker.min.css">
+    <link rel="stylesheet" href="angular/remodal.css">
+    <link rel="stylesheet" href="angular/remodal-default-theme.css">
+    <link rel="stylesheet" href="angular/custom.css">
+
+
+	<!-- font -->
+	<link href="angular/css" rel="stylesheet" type="text/css">
+
+	<!-- favicon icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="http://www.bookinghelpline.co.uk/images/ico/favicon.ico">
+ 
+<script src="oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> 
+<!--<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','../www.google-analytics.com/analytics.js','ga');ga('create', 'UA-58602806-1', 'auto');ga('send', 'pageview');</script> -->
+<title>Booking Helpline</title> 
+</head> 
+<body> <link href="http://fonts.googleapis.com/css?family=Open%20Sans" rel="stylesheet" type="text/css"/> 
+<script>	function loadViaBkgImage() {		if($('.backstretch').length) {			$.backstretch('destroy', false);		}	}	</script> 
+<style>	.viamagusPageSettings {		font-family: 'Open Sans'	}	</style> <div class="viamagusPageSettings"> <div class="viamagus-container"> <div class="viamagus-component viamagus_header" id="viamagus_Menu_3530" data-component-name="Menu" data-sticky-header="true"> <div class="viamagus-component-bg-colour" style="background-color:"> <style>					.viamagus_header .navbar-inverse .nav-collapse .nav>li>a,					.viamagus_header .dropdown-menu>.active>a,					.viamagus_header .dropdown-menu>.active>a:hover,					.viamagus_header .dropdown-menu>.active>a:focus {						font-weight: normal;						font-style: normal;					}					</style> 
+<div class="viamagus-component-content navbar navbar-inverse" style="padding-top:5px;padding-bottom:5px;padding-left:100px;padding-right:100px;"> 
+<div class="navbar-inner" data-bkg-color="" data-transparent-menu-cover-mode="true"> <div class="viamagus-menu-top-row"> </div> <div class="container menu-center"> <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> 
+<span class="icon-bar"></span> <span class="icon-bar"></span> </button> <div class="viamagus-business-logo" itemscope="" itemtype="http://schema.org/Organization"> <a itemprop="url" class="brand " href="index.html" id="logoName"><!--<image src="images/logo.png" alt text="Booking Helpline"/>--> BOOKING HELPLINE</a> </div> 
+<div class="collapse-center" style=""> <div style="bold"> <ul class="nav" id="menu-nav"> <li> <a style="font-size:12px;" data-toggle="collapse" data-target=".nav-collapse" class="menulink" href="index.html#viamagus_Hero_Section"> HOME </a> </li> 
+<li> <a style="font-size:12px;" data-toggle="collapse" data-target=".nav-collapse" class="menulink" href="index.html#viamagus_Image_Text_5582"> ABOUT US </a> </li> 
+<li> <a style="font-size:12px;" data-toggle="collapse" data-target=".nav-collapse" class="menulink" href="index.html#viamagus_Image_Text_6387"> CSCS CARDS </a> </li> 
+<li> <a style="font-size:12px;" data-toggle="collapse" data-target=".nav-collapse" class="menulink" href="index.html#viamagus_Image_Text_2398"> HEALTH & SAFETY TEST </a> </li>
+<li> <a style="font-size:12px;" data-toggle="collapse" data-target="" class="menulink" href="index.html#viamagus_Image_Text_2397"> CLASSROOM COURSES </a> </li>  
+<li> <a style="font-size:12px;" data-toggle="collapse" data-target=".nav-collapse" class="menulink" href="index.html#viamagus_Section_Title_5336"> CONTACT US </a> </li> </ul> </div> </div> </div> </div> </div> </div> </div> 
+<div class="page ng-scope">
+  <div id="breadcrumb-section" class="section">
+    <div class="container">
+      <div class="page-title text-center">
+        <h1>Terms &amp; Conditions</h1>
+        <!--<ol class="breadcrumb">
+          <li><a href="#">Home</a></li>
+          <li class="active">Terms &amp; Conditions</li>
+        </ol>-->
+      </div>
+    </div>
+  </div><!-- breadcrumb-section -->
+
+  <div class="ad-post-wrapper section">
+    <div class="container">
+      <div class="blank-page">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="test-column">
+              <p>Please read these terms carefully before using this web site.</p>
+              <p>Using this web site indicates that you accept these terms and conditions which take effect on the date of use of the website. If you do not accept these terms and conditions ("terms"), do not use this web site ("site").</p>
+              <p>Booking Helpline ltd</p>
+              <p>Company No. 09290452 (Registered in England &amp; Wales)</p>
+            </div>
+
+            <hr>
+            <div class="tl test-column">
+              <h3>Definitions</h3>
+              <p>The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and any or all Agreements: "Client", "You" and "Your" refers to you, the person accessing this website and accepting the Company's terms and conditions. "The Company", "Ourselves", "We" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves, or either the Client or ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner, whether by formal meetings of a fixed duration, or any other means, for the express purpose of meeting the Client's needs in respect of provision of the Company's stated services/products, in accordance with and subject to, prevailing English Law. Any use of the above terminology or other words in the singular, plural, capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same.</p>
+
+              <hr>
+
+              <h3>Agreement</h3>
+              <p>Access to and use of this website and the information, materials, products and services available through this website are subject to all applicable laws and regulations and to these Terms of Use.
+              By accessing this website, you agree to these Terms of Use which form a legally binding agreement. If you do not agree, please exit this website.
+              These Terms of Use may be changed by us from time to time without specific notice to you. The latest Terms of Use will be posted on the website, and you should always review these Terms of Use prior to using the website to ensure that you have a current understanding of the Terms of Use under which you are permitted to access this website. If you cannot access the Terms of Use via the Internet, we can provide a copy of the most recent Terms of Use by e-mail upon request.
+              ACCESS TO THIS WEB SITE (OR PORTIONS THEREOF) AND THE USE OF INFORMATION, MATERIALS, PRODUCTS OR SERVICES PROVIDED THROUGH THIS WEB SITE (OR PORTIONS THEREOF), IS NOT INTENDED, AND IS PROHIBITED, WHERE SUCH ACCESS OR USE VIOLATES APPLICABLE LAWS OR REGULATIONS.</p>
+
+              <hr>
+
+              <h3>Ownership</h3>
+              <p>Unless otherwise indicated, this website and its design, text, content, selection and arrangement of elements, organisation, graphics, design, compilation, magnetic translation, digital conversion and other matters related to this website are protected under applicable copyrights, (licensed) trademarks and other proprietary (including, but not limited to, intellectual property) rights and are the property of AOK Solutions Limited or the material is included with the permission of the rights owner and is protected pursuant to copyright and trademark laws. ALL RIGHTS RESERVED.
+              The posting of any such elements on this website does not constitute a waiver of any right in such elements. You do not acquire ownership rights to any such elements viewed through this website. Except as otherwise provided herein, none of the these elements may be used, copied, reproduced, distributed, republished, downloaded, modified, displayed, posted or transmitted in any form or by any means, including, but not limited to, electronic, mechanical, photocopying, recording, or otherwise, without our express prior written permission.</p>
+
+              <hr>
+
+              <h3>Services &amp; Info</h3>
+              <p>All references on this Website to information, materials and services apply to information, materials and services available in the UK only, unless otherwise stated.</p>
+
+              <hr>
+
+              <h3>Your Order</h3>
+              <p>Any order that you place on this website will be subject to acceptance in accordance with these terms.&nbsp;
+              ALL ORDERS/PURCHASES MADE ONLINE OR BY TELEPHONE ARE SUBJECT TO THE FOLLOWING BOTH GENERAL AND SPECIFIC CONDITIONS:
+              <br>1. The receipt of payments by us shall constitute full acceptance of all terms &amp; conditions as detailed here, on the part of the payer.
+              <br>2. When you place your order to purchase products from the Website or by telephone, we will automatically send you an e-mail confirming receipt of your order and containing the details of your order. We recommend you print out the Confirmation Email and keep it for your own records. The confirmation email does not constitute our acceptance of your order; it merely records the fact that we have received your order. We will send you a second e-mail when we book your Health Safety &amp; Environment Test which shall constitute our acceptance or your order.
+              <br>3. We cannot accept liability for a payment not reaching the intended account due to a customer quoting an incorrect account number
+              <br>4. We cannot accept liability if payment is refused or declined by the card supplier (due to the customer quoting incorrect card details or other reasons)
+              <br>5. We cannot give any guarantee of the date upon which a service is intended to be provided, product delivered or a test to be taken as these may be subject to change and in some cases affected by, third party services.
+              <br>6. You are responsible for attending the course/test centre on the correct date at the correct time.
+              <br>7. All advice and services provided will all be based on the information that you provide our agents to best assist you. Every effort must be taken on your behalf to ensure you provide as much relevant information to enable us to provide you with the correct information and accurate test bookings. Any wrongful bookings placed over the phone or online due to the provision of misleading information to our agents will not be refunded or cancelled. In the event that our agents are at fault a rebooking will be done at our expense with no additional charge to you.
+              <br>8. Any bookings placed online after 6pm Mon-Fri will be confirmed the following working day. Any bookings placed on Sunday will be confirmed on Monday.
+              <br>9. Please note that we do not take responsibility if you do not receive any confirmation email as it is your responsibility to provide the correct email address.
+              <br>10. We can post test booking confirmation by post if only specifically requested by you because you do not have a current email address. We do not take responsibility if you do not receive postal test booking confirmation.
+              <br>11. We do not take responsibility if the preferred date or time for your test is not available but where we can provide you with the next available date/ time at your preferred test centre we will endeavour to do so.
+              <br>12. Once your test is booked, it can be cancelled/rescheduled if requested 72 hours before the exam date. A refund will be issued within 5 working days less £10 admin fee.
+              <br>13. The date and time chosen by you online are not guaranteed and is only subject to availability.</p>
+
+              <hr>
+
+              <h3>Payment</h3>
+              <p>We do not store credit card details nor do we share customer details with any 3rd parties.</p>
+              <p>Booking Helpline charges fee for its services, the single fee we charge you is the booking fee plus our own admin fee for processing the booking. Once the booking has been confirmed you will be legally bound to pay our fee.</p>
+              <p>Booking Helpline accepts payment by credit card, debit card and bank transfers. We require full cleared funds before we book any course, test or dispatch any products to you.</p>
+              <p>Termination of Agreements and Refund/Cancellation Policy</p>
+              <p>Any statutory rights which you may have as a Consumer are not affected by these Terms. No refunds shall be offered, where a Service is deemed to have begun and is, for all intents and purposes, underway. Any monies that have been paid to us which constitute payment in respect of the provision of unused Services, shall be refunded.</p>
+              <p>To get a refund on any order/purchases email us at query@bookinghelpline.co.uk or call us on 0203 8183 838, refunds usually take between 3-5 working days to reach your account. You have a right to return any book or CD-ROM purchased on our website as well as to ask for a full refund of the price actually paid to us, providing you do so within 14 working days after the date of receipt of the goods.
+              Books or CD-ROMs must be sent to the following address: Booking Helpline ltd, 21 Ledbury Place, Croydon, CR0 1ET</p>
+
+              <p><strong>We reserve the right to refuse to refund the product price or deduct an appropriate amount from payment to be refunded if:</strong></p>
+              <p>- The product returned have been damaged or used;<br>
+              - The product returned have been damaged or used;<br>
+              - If any parts of the training product is missing;<br>
+              - If the product was used or has any signs that it has been used;<br>
+              - If CD-ROM has been opened;<br>
+              - If the product has been returned or sent back after the 14 working day refund period</p>
+
+              <hr>
+
+              <h3>Rescheduling Policy</h3>
+              <p>If you want to reschedule a test booking, you will need to contact us by email or by calling us, 72 hours before the test time. Note weekends are not included in the time span given for rescheduling a test booking.</p>
+
+              <hr>
+
+              <h3>CSCS Cards Application</h3>
+              <p>We require full cleared payment before applying for Fixed term CSCS &amp; Affiliates cards or dispatching any products to you.</p>
+              <p>Refund Policy</p>
+              <p>Our CSCS card application assistance service is not a refundable service. Once you have booked this service you will not be entitled to cancel it and will not be able to secure a refund or to claim for any loss or damage of any kind financial or otherwise.</p>
+
+              <hr>
+
+              <h3>Course Bookings – Subject to Confirmation</h3>
+              <p>Reservings that are Subject to Confirmation by Training Providers are not continuously updated with availability by Providers as spaces are reserved. Therefore, there is a chance that your reserving may not be successful, especially if the course date is very near. Should your initial reserving be unsuccessful we will, wherever possible, offer an other choice to best match your requirements, but you are not obliged to accept an other choice</p>
+
+              <hr>
+
+              <h3>Cancellations, Reschedules and Course Transfer Policy</h3>
+              <p>Although rare, from time to time, training providers may need to cancel or reschedule courses. Should a training course be cancelled for any reason, you will be fully reimbursed of all course costs including VAT and card fees paid, unless an alternative date has been offered and accepted.&nbsp;This is the full extent of the liability which Booking Helpline has for any indirect, incidental, punitive, special or consequential losses or damages arising from course cancellations or rescheduled courses.</p>
+              <p>If you wish to cancel a course booking, you must notify us in writing. Course cancellations are subject to fees in accordance with the following table of charges:</p>
+              <br>
+              <table class="table table-bordered">
+                <thead>
+                  <tr class="active">
+                    <td>No. of Days Before Course Start Date</td>
+                    <td>Course Cancellations</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>More than 21 working days</td>
+                    <td>25% of course fees</td>
+                  </tr>
+                  <tr>
+                    <td>Between 11 and 20 working days</td>
+                    <td>50% of course fees</td>
+                  </tr>
+                  <tr>
+                    <td>10 or fewer working days</td>
+                    <td>Full course fees</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <p>Please note that course transfers may be subject to an administration fee in addition to any cancellation fee arising from the transfer (as detailed in table above). If Booking Helpline Ltd are to incur any charges as a result of your transfer, these will be passed onto yourself. Fees will be calculated on how much notice has been given, the duration and accreditation of the course and the individual training provider’s terms.</p>
+
+              <p>Delegates who fail to complete all parts of the course will not be eligible for any refund or free transfer, although exceptions may apply due to individual circumstances at the training provider’s discretion.</p>
+
+              <hr>
+
+              <h3>Course and Event Information</h3>
+              <p>Information relating to courses and events provided by Training Providers is carefully monitored for accuracy, errors or omissions. However, Booking Helpline Ltd cannot be held responsible for any errors in this information, including but not limited to Providers claims of Approvals and Accreditations.</p>
+              <p>Courses are non-residential unless explicitly stated in the course overview or course description.</p>
+              <p>Refreshments and a light lunch are typically provided on full day courses, but cannot be guaranteed.</p>
+              <p>Course start times will be confirmed in joining instructions. </p>
+
+              <hr>
+
+              <h3>Warranties</h3>
+              <p>You warrant and represent to us that: you are legally capable of entering into binding contracts; you have full authority, power and capacity to agree to these terms and conditions; all the information that you provide to us in connection with your order is true, accurate, complete and non-misleading; and you will be able to take delivery of the products in accordance with these terms and conditions [and our delivery policy].</p>
+
+              <hr>
+
+              <h2>Disclaimer</h2>
+
+              <hr>
+              <h3>Exclusions and Limitations</h3>
+              <p>The information on this web site is provided on an "as is" basis. To the fullest extent permitted by law, this Company:
+              excludes all representations and warranties relating to this website and its contents or which is or may be provided by any affiliates or any other third party, including in relation to any inaccuracies or omissions in this website and/or the Company's literature; and
+              excludes all liability for damages arising out of or in connection with your use of this website. This includes, without limitation, direct loss, loss of business or profits (whether or not the loss of such profits was foreseeable, arose in the normal course of things or you have advised this Company of the possibility of such potential loss), damage caused to your computer, computer software, systems and programs and the data thereon or any other direct or indirect, consequential and incidental damages.</p>
+              <p>This Company does not however exclude liability for death or personal injury caused by its negligence. The above exclusions and limitations apply only to the extent permitted by law. None of your statutory rights as a consumer are affected.
+              Availability</p>
+              <p>Unless otherwise stated, the services featured on this website are only available within the United Kingdom, or in relation to postings from the United Kingdom. All advertising is intended solely for the United Kingdom market. You are solely responsible for evaluating the fitness for a particular purpose of any downloads, programs and text available through this site. Redistribution or republication of any part of this site or its content is prohibited, including such by framing or other similar or any other means, without the express written consent of the Company. The Company does not warrant that the service from this site will be uninterrupted, timely or error free, although it is provided to the best ability. By using this service you thereby indemnify this Company, its employees, agents and affiliates against any loss or damage, in whatever manner, howsoever caused.</p>
+
+              <hr>
+
+              <h3>Log Files</h3>
+              <p>We use IP addresses to analyse trends, administer the site, track user's movement, and gather broad demographic information for aggregate use. IP addresses are not linked to personally identifiable information. Additionally, for systems administration, detecting usage patterns and troubleshooting purposes, our web servers automatically log standard access information including browser type, access times/open mail, URL requested, and referral URL. This information is not shared with third parties and is used only within this Company on a need-to-know basis. Any individually identifiable information related to this data will never be used in any way different to that stated above without your explicit permission.</p>
+
+              <hr>
+
+              <h3>Cookies</h3>
+              <p>Like most interactive web sites this Company's website [or ISP] uses cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site to enable the functionality of this area and ease of use for those people visiting. Some of our affiliate partners may also use cookies.</p>
+
+              <hr>
+
+              <h3>Links to this website</h3>
+              <p>You may not create a link to any page of this website without our prior written consent. If you do create a link to a page of this website you do so at your own risk and the exclusions and limitations set out above will apply to your use of this website by linking to it.</p>
+
+              <hr>
+
+              <h3>Links from other websites</h3>
+              <p>Any link to this website without our written permission is prohibited save for linking by search engines, for example Google. Notwithstanding authorisation to link to this website, linking to any page other than the initial start page of www.hshelpline.co.uk.is prohibited save for search engines who may deep link in accordance with standard practice. Persons providing access to this website via link from another website are solely responsible for the content, accuracy, opinions expressed, privacy policies, products or services of, or available through, the source website and for any representations made or impressions created concerning Booking Helpline Ltd.
+              Authorisation by us to link to this website is given without assumption of any liability by us relating to such links, and we hereby disclaim any such liability. We reserve the right to withdraw any authorisation to link to this website at any time and for any reason.
+              Anyone providing access to, or information relating to this website, whether by link or otherwise, is responsible for bringing these Terms of Use to the attention of the person receiving such access or information. Failure to do so will not result in liability for us.</p>
+
+              <hr>
+
+              <h3>Copyright Notice</h3>
+              <p>Copyright and other relevant intellectual property rights exists on all text relating to the Company's services and the full content of this website.</p>
+
+              <hr>
+
+              <h3>Force Majeure</h3>
+              <p>Neither party shall be liable to the other for any failure to perform any obligation under any Agreement which is due to an event beyond the control of such party including but not limited to any Act of God, terrorism, war, Political insurgence, insurrection, riot, civil unrest, act of civil or military authority, uprising, earthquake, flood or any other natural or man made eventuality outside of our control, which causes the termination of an agreement or contract entered into, nor which could have been reasonably foreseen. Any Party affected by such event shall forthwith inform the other Party of the same and shall use all reasonable endeavours to comply with the terms and conditions of any Agreement contained herein.</p>
+
+              <hr>
+
+              <h3>Waiver</h3>
+              <p>Failure of either Party to insist upon strict performance of any provision of this or any Agreement or the failure of either Party to exercise any right or remedy to which it, he or they are entitled hereunder shall not constitute a waiver thereof and shall not cause a diminution of the obligations under this or any Agreement. No waiver of any of the provisions of this or any Agreement shall be effective unless it is expressly stated to be such and signed by both Parties.</p>
+
+              <hr>
+
+              <h3>Severability</h3>
+              <p>If a provision of these terms and conditions is determined by any court or other competent authority to be unlawful and/or unenforceable, the other provisions will continue in effect. If any unlawful and/or unenforceable provision of these terms and conditions would be lawful or enforceable if part of it were deleted, that part will be deemed to be deleted, and the rest of the provision will continue in effect.</p>
+
+              <hr>
+
+              <h3>Third party rights</h3>
+              <p>These terms and conditions are for our benefit and your benefit, and are not intended to benefit or be enforceable by any third party.
+              The exercise of the parties' rights under these terms and conditions is not subject to the consent of any third party.</p>
+
+              <hr>
+
+              <h3>General</h3>
+              <p>The laws of England and Wales govern these terms and conditions. By accessing this website [and using our services/buying our products] you consent to these terms and conditions and to the exclusive jurisdiction of the English courts in all disputes arising out of such access. If any of these terms are deemed invalid or unenforceable for any reason (including, but not limited to the exclusions and limitations set out above), then the invalid or unenforceable provision will be severed from these terms and the remaining terms will continue to apply. Failure of the Company to enforce any of the provisions set out in these Terms and Conditions and any Agreement, or failure to exercise any option to terminate, shall not be construed as waiver of such provisions and shall not affect the validity of these Terms and Conditions or of any Agreement or any part thereof, or the right thereafter to enforce each and every provision. These Terms and Conditions shall not be amended, modified, varied or supplemented except in writing and signed by duly authorised representatives of the Company.</p>
+
+              <hr>
+
+              <h3>Notification of Changes</h3>
+              <p>The Company reserves the right to change these conditions from time to time as it sees fit and your continued use of the site will signify your acceptance of any adjustment to these terms. If there are any changes to our privacy policy, we will announce that these changes have been made on our home page and on other key pages on our site. If there are any changes in how we use our site customers' Personally Identifiable Information, notification by e-mail or postal mail will be made to those affected by this change. Any changes to our privacy policy will be posted on our web site 30 days prior to these changes taking place. You are therefore advised to re-read this statement on a regular basis.</p>
+
+              <hr>
+
+              <h3>Our Details</h3>
+              <p>If you have any questions regarding these Terms or any other matter, you may contact us by writing to us at:</p>
+              <p>Booking Helpline, 21 Ledbury Place, Croydon, CR0 1ET<br>
+              e-mailing us at query@bookinghelpline.co.uk<br>
+              Calling us: 020 3818 3838</p>
+              <p>These terms and conditions form part of the Agreement between the Client and ourselves. Your accessing of this website and/or undertaking of a booking or Agreement indicates your understanding, agreement to and acceptance, of the Disclaimer Notice and the full Terms and Conditions contained herein. Your statutory Consumer Rights are unaffected.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- ad-post -->
+</div>
+
+
+<!--***********************************************************************-->
+
+<div foot="" class="ng-scope"><!-- footer -->
+<footer id="footer">
+  <div class="footer-top section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="footer-widget about-widget">
+            <h3>About Booking Helpline</h3>
+            <p>Book your cscs card, test and courses here.</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="footer-widget link-widget">
+            <h3>Useful Links</h3>
+            <ul>
+              <!--<li><a href="/contact"> <i class="fa fa-angle-double-right"></i> Contact</a></li>
+              <li><a href="/about"> <i class="fa fa-angle-double-right"></i> About us</a></li>-->
+              <li><a href="privacy.html"> <i class="fa fa-angle-double-right"></i> Privacy Policy</a></li>
+              <li><a href=""> <i class="fa fa-angle-double-right"></i> Terms Of Service</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="footer-widget contact-widget">
+            <h3>Contact Us</h3>
+            <ul>
+               <li><span><i class="fa fa-map-marker"></i> Address :</span> 21 Ledbury Place, Croydon, CR0 1ET</li>
+                   <li><span><i class="fa fa-phone"></i> Phone number :</span> 0203 8183 838</li>
+                   <li><span><i class="fa fa-envelope"></i> E-mail :</span> <a href="mailto:#">query@bookinghelpline.co.uk</a></li>
+                   <li>
+                    <ul class="list-inline social">
+                  <li><a class="facebook" href="#"><i class="fa fa-facebook-square"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fa fa-twitter-square"></i></a></li>
+                  <li><a class="google" href="#"><i class="fa fa-google-plus-square"></i></a></li>
+                  <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                  <li><a class="youtube" href="#"><i class="fa fa-youtube-play"></i></a></li>
+                </ul>
+                   </li>
+                </ul>
+          </div>
+        </div>
+      </div>
+    </div><!-- container -->
+  </div><!-- footer-top -->
+
+
+  <div class="footer-bottom clearfix">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <p>© 2017 Booking Helpline.</p>
+        </div>
+        <div class="col-sm-6">
+          <!-- <div class="payment-opt-icons">
+            <span>Payments </span>
+            <ul>
+                            <li><img src="images/others/1.png" alt="" class="img-responsive"></li>
+                            <li><img src="images/others/2.png" alt="" class="img-responsive"></li>
+                            <li><img src="images/others/3.png" alt="" class="img-responsive"></li>
+                            <li><img src="images/others/4.png" alt="" class="img-responsive"></li>
+                            <li><img src="images/others/5.png" alt="" class="img-responsive"></li>
+                        </ul>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div><!-- footer-bottom -->
+</div></footer><!-- footer -->
+</div>
+
+ <script src="viamagus.net/static/sitebuilder/js/galleria.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/galleria.classicmod.js"></script> <script src="viamagus.net/static/sitebuilder/js/wow.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/jquery.nav.js"></script> <script src="viamagus.net/static/sitebuilder/js/jquery.elastislide.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/jquery.mb.YTPlayer.js"></script> <script src="viamagus.net/static/sitebuilder/js/jquery.lazyload.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/viamagus-loader.js"></script> <script src="viamagus.net/static/sitebuilder/js/viamagus-transaction-manager.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/jquery.pickmeup.js"></script> <script src="viamagus.net/static/sitebuilder/js/jquery.raty.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/jquery.validate.js"></script> <script src="viamagus.net/static/sitebuilder/js/jquery.form.js"></script> 
+<script src="viamagus.net/static/sitebuilder/js/dropzone.js"></script> <script type="text/javascript" src="viamagus.net/static/sitebuilder/js/intlTelInput.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/bootstrap-combobox.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/jquery.parascroll.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/plugins.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/viamagus-website-loader.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/viamagus-form-loader.js"></script> 
+<script type="text/javascript" src="viamagus.net/static/sitebuilder/js/viamagus-singlepage-payment-v1.js"></script> 
+<script>	$(function() {		Viamagus_Website_Loader._init();		Viamagus_Form_Loader._init();	});	</script> </body> 
+
+</html>

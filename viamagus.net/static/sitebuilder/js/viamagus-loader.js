@@ -1,0 +1,4 @@
+function viamagusLoader(el,options){var defaults={bgColor:'#fff',duration:800,opacity:0.7,classOveride:false}
+this.options=jQuery.extend(defaults,options);this.container=$(el);this.init=function(){var container=this.container;this.remove();var overlay=$('<div></div>').css({'background-color':this.options.bgColor,'opacity':this.options.opacity,'width':container.width(),'height':container.height(),'position':'fixed','top':'0px','left':'0px','z-index':99999}).addClass('viamagus_overlay');if(this.options.classOveride){overlay.addClass(this.options.classOveride);}
+container.append(overlay.append($('<div></div>').addClass('viamagus_loader')).fadeIn(this.options.duration));};this.remove=function(){var overlay=this.container.children(".viamagus_overlay");if(overlay.length){overlay.fadeOut(this.options.classOveride,function(){overlay.remove();});}}
+this.init();}

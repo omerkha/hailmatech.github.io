@@ -1,0 +1,82 @@
+.course-price {
+  position: inherit;
+  display: inline-block;
+}
+
+.cscs-card .seller-info {
+  font-size: 11px !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.media-left, .media > .pull-left {
+    margin-right: 10px;
+    padding-right: 4px;
+}
+
+.tc {text-align: center;}
+div.tl {text-align: left !important;}
+
+.cart-course-name {padding-top: 5px;}
+
+.cart-table tbody tr td {padding: 15px !important;}
+
+.qty-input {max-width: 50px; text-align: center;}
+
+.cart-btn {
+  font-size: 16px !important;
+  padding: 6px 12px !important;
+}
+
+#avt-category .category-avt {
+  min-height: 343px;
+  max-height: 248px;
+  overflow: hidden;
+
+}
+
+.owl-carousel .owl-item img {
+   min-height: 220px;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {
+    min-height: 175px !important;
+}
+
+.present-nav {padding: 6px 15px !important;}
+
+.select-arrow {
+  position: absolute;
+  left: 88%;
+  bottom: 44%;
+}
+
+.item .item-description {
+    padding: 12px 25px;
+}
+
+.item .item-title h3 {
+    margin-top: 15px;
+}
+
+.moment-picker {
+  z-index: 10000 !important;
+}
+
+.test-cart-info {
+  font-size:10px;
+}
+
+.card-update-btn {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.qty-input {
+  max-width: 35px;
+  height: 30px;
+  position: relative;
+  left: 15px;
+}
